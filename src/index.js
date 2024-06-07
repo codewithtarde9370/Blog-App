@@ -2,7 +2,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import Home from "./views/home/home";
 import {createBrowserRouter, RouterProvider} from 'react-router-dom';
-import BlogPage from './views/blogPage/blog';
+import Blog from './views/blogPage/blog';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -12,8 +12,8 @@ const router = createBrowserRouter([
     element:<Home/>,
   },
   {
-    path: "/blog",
-    element:<BlogPage/>,
+    path: "/blog/:id",
+    element:<Blog/>,
   }
 ])
 root.render(<RouterProvider router={router}/>);
