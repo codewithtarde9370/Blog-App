@@ -44,6 +44,8 @@ Once the development server is running, you can access the app in your web brows
 - Blog: Displays detailed information about a selected blog using routing parameters.
 - Navbar: (Future enhancement) Navigation bar for the application.
 
+![Home Page](./readme.png)
+![Blogs](./readme%20blog.png)
 
 ## Data Structure
 The blog data is currently stored in an array of objects. Each object represents a blog with the following structure:
