@@ -4,7 +4,7 @@ import BlogCard from './../../components/blogCard';
 
 function Home() {
   return (
-    <div>
+    <div className='blog-card-container'>
       {BlogData.map((obj, index) => (
         <BlogCard
           key={index}

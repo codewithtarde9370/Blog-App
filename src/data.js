@@ -15,7 +15,7 @@ const BlogData = [
   {
     blogImg: Server,
     title: "The Power of Server-Side Rendering (SSR)",
-    about: "Discover the benefits of server-side rendering for improving website performance and SEO. Learn how SSR works and how to implement it in your projects.",
+    about: "Discover the benefits of server-side rendering for improving website performance and SEO. Learn how SSR works and how to implement it in your projects.Discover the benefits of server-side rendering for improving website performance and SEO. Learn how SSR works and how to implement it in your projects.Discover the benefits of server-side rendering for improving website performance and SEO. Learn how SSR works and how to implement it in your projects.",
     author: {
       name: "Emily Smith",
       authorImg: Emily,
@@ -25,7 +25,7 @@ const BlogData = [
   {
     blogImg: Svelte,
     title: "Introducing Svelte: The Next-Generation JavaScript Framework",
-    about: "Explore the innovative features of Svelte, a compiler-based JavaScript framework that offers improved performance and simplicity compared to traditional frameworks like React and Vue.js.",
+    about: "Explore the innovative features of Svelte, a compiler-based JavaScript framework that offers improved performance and simplicity compared to traditional frameworks like React and Vue.js.Explore the innovative features of Svelte, a compiler-based JavaScript framework that offers improved performance and simplicity compared to traditional frameworks like React and Vue.js.Explore the innovative features of Svelte, a compiler-based JavaScript framework that offers improved performance and simplicity compared to traditional frameworks like React and Vue.js.",
     author: {
       name: "David Johnson",
       authorImg: David,
@@ -35,7 +35,7 @@ const BlogData = [
   {
     blogImg: Flexbox,
     title: "Mastering CSS Flexbox: A Comprehensive Guide",
-    about: "Gain a deep understanding of CSS Flexbox and its powerful layout capabilities. Follow along with practical examples and tutorials to become a Flexbox expert.",
+    about: "Gain a deep understanding of CSS Flexbox and its powerful layout capabilities. Follow along with practical examples and tutorials to become a Flexbox expert.Gain a deep understanding of CSS Flexbox and its powerful layout capabilities. Follow along with practical examples and tutorials to become a Flexbox expert.Gain a deep understanding of CSS Flexbox and its powerful layout capabilities. Follow along with practical examples and tutorials to become a Flexbox expert.",
     author: {
       name: "Sophia Lee",
       authorImg: Sophia,
@@ -45,7 +45,7 @@ const BlogData = [
   {
     blogImg: Google,
     title: "Introducing Material You: Google's New Design System",
-    about: "Explore Google's Material You design system, the next evolution of Material Design. Learn about the new design principles and components and how to incorporate them into your web projects.",
+    about: "Explore Google's Material You design system, the next evolution of Material Design. Learn about the new design principles and components and how to incorporate them into your web projects.Explore Google's Material You design system, the next evolution of Material Design. Learn about the new design principles and components and how to incorporate them into your web projects.Explore Google's Material You design system, the next evolution of Material Design. Learn about the new design principles and components and how to incorporate them into your web projects.",
     author: {
       name: "Michael Chen",
       authorImg: Michael,
@@ -55,7 +55,7 @@ const BlogData = [
   {
     blogImg: Accessibility,
     title: "Enhancing Web Accessibility: Best Practices and Tools",
-    about: "Discover strategies for making your websites more accessible to users with disabilities. Explore WCAG guidelines, accessibility testing tools, and techniques for inclusive design.",
+    about: "Discover strategies for making your websites more accessible to users with disabilities. Explore WCAG guidelines, accessibility testing tools, and techniques for inclusive design.Discover strategies for making your websites more accessible to users with disabilities. Explore WCAG guidelines, accessibility testing tools, and techniques for inclusive design.Discover strategies for making your websites more accessible to users with disabilities. Explore WCAG guidelines, accessibility testing tools, and techniques for inclusive design.",
     author: {
       name: "Olivia Williams",
       authorImg: Olivia,
@@ -65,7 +65,7 @@ const BlogData = [
   {
     blogImg: Webassembly,
     title: "The Future of Web Development: Exploring WebAssembly (Wasm)",
-    about: "Get a glimpse into the future of web development with WebAssembly. Learn how Wasm enables high-performance, low-level code execution in the browser and its potential applications.",
+    about: "Get a glimpse into the future of web development with WebAssembly. Learn how Wasm enables high-performance, low-level code execution in the browser and its potential applications.Get a glimpse into the future of web development with WebAssembly. Learn how Wasm enables high-performance, low-level code execution in the browser and its potential applications.Get a glimpse into the future of web development with WebAssembly. Learn how Wasm enables high-performance, low-level code execution in the browser and its potential applications.",
     author: {
       name: "Daniel Rodriguez",
       authorImg: Daniel,
