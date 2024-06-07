@@ -3,10 +3,11 @@
     display: flex;
     flex-direction: row;
     width: 70%;
-    background-color: cadetblue;
     margin: 20px auto;
     padding:10px 20px;
+    box-shadow: 0 1px 20px 0 rgba(223, 211, 211, 0.5)
 }
+
 .blog-img img{
     margin: 0;
     padding: 0;
@@ -31,6 +32,8 @@
     -o-border-radius: 50%;
 }
 .blog-desc{
+    font-size:medium;
+    font-weight: 600;
     margin:0 20px;
 }
 .blog-author .date{
