@@ -6,7 +6,6 @@
     flex-direction: row;
     width: 70%;
     margin: 20px auto;
-    padding:10px 20px;
     box-shadow: 0 1px 20px 0 rgba(224, 218, 218, 0.5)
 }
 .blog-Card:hover{
@@ -17,11 +16,16 @@
     -ms-transition: 0.3s;
     -o-transition: 0.3s;
 }
+.blog-img{
+    margin: 0;
+    padding: 0;
+
+}
 
 .blog-img img{
     margin: 0;
     padding: 0;
-    height: 250px;
+    height: 240px;
     width:300px;
 }
 .blog-author{

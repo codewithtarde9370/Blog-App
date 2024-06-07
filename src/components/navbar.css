@@ -1,0 +1,31 @@
+.navbar{
+    position: relative;
+    height: 50px;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+    margin: 0;
+
+}
+.header-title{
+    position: absolute;
+    left: 10px;
+    font-size: 24px;
+    font-weight: bold;
+
+}
+.navbar .links{
+    padding: 10px 30px;
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    
+}
+.link-container{
+    position: absolute;
+    right: 20px;
+}

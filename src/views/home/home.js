@@ -1,11 +1,13 @@
 import React from 'react';
 import BlogData from '../../data';
 import BlogCard from '../../components/blogCard';
+import Navbar from '../../components/navbar';
 
 function Home() {
     return (
         
 <div>
+<Navbar/>
             {
                 BlogData.map((obj, index) => {
                     const{
@@ -19,6 +21,9 @@ function Home() {
                             date
                         }= obj;
                        return(
+                        <>
+                        
+                        
                         <BlogCard 
                         key={index}
                         id={id}
@@ -29,7 +34,7 @@ function Home() {
                         name={name}
                         authorImg={authorImg}
                         date={date}
-                        />
+                        /></>
                         
                         );
                     })
