@@ -6,8 +6,17 @@
     margin: 20px auto;
     padding:10px 20px;
 }
-.blog-img{
+.blog-img img{
     margin: 0;
     padding: 0;
     height: 250px;
+    width:300px;
+}
+.authorImg{
+    height: 30px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
 }

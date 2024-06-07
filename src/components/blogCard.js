@@ -1,15 +1,18 @@
 import React from 'react';
 import './blog-card.css'
 
-function blogCard({blogImg,title,about,author}) {
+
+function BlogCard({blogImg,title,about,author}) {
   return (
     <div className='blog-Card'>
-        <div className='blog-img'>{blogImg}</div>
+        <div className='blog-img'><img src={blogImg} alt='blogImage'></img></div>
         <div className='blog-desc'>
             <h1 className='blog-title'>{title}</h1>
             <p className='blog-content'>{about}</p>
             <div className='blog-author'>
-                {author}
+              <img src={author.authorImg} alt='authorImg' className='authorImg'></img>
+                <span>{author.name}</span>
+                <span>{author.date}</span>
             </div>
 
         </div>
@@ -17,4 +20,4 @@ function blogCard({blogImg,title,about,author}) {
   )
 }
 
-export default blogCard
+export default BlogCard
