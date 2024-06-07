@@ -47,6 +47,21 @@ Once the development server is running, you can access the app in your web brows
 
 ## Data Structure
 The blog data is currently stored in an array of objects. Each object represents a blog with the following structure:
+```const BlogData = [
+  {
+    id: "The Science of Nutrition",
+    blogImg: Server,
+    title: "The Science of Nutrition",
+    about: "Explore the latest research findings on nutrition...",
+    author: {
+      name: "Emily Smith",
+      authorImg: Emily,
+      date: "July 20, 2024",
+    },
+  },
+  // Additional blog objects...
+];
+```
 
 ## Technologies Used
 1.React.js
