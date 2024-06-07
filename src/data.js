@@ -13,6 +13,7 @@ import Olivia from "./components/Olivia.jpg";
 
 const BlogData = [
   {
+    id:0,
     blogImg: Server,
     title: "The Power of Server-Side Rendering (SSR)",
     about: "Discover the benefits of server-side rendering for improving website performance and SEO. Learn how SSR works and how to implement it in your projects.Discover the benefits of server-side rendering for improving website performance and SEO. Learn how SSR works and how to implement it in your projects.Discover the benefits of server-side rendering for improving website performance and SEO. Learn how SSR works and how to implement it in your projects.",
@@ -23,6 +24,7 @@ const BlogData = [
     },
   },
   {
+    id:1,
     blogImg: Svelte,
     title: "Introducing Svelte: The Next-Generation JavaScript Framework",
     about: "Explore the innovative features of Svelte, a compiler-based JavaScript framework that offers improved performance and simplicity compared to traditional frameworks like React and Vue.js.Explore the innovative features of Svelte, a compiler-based JavaScript framework that offers improved performance and simplicity compared to traditional frameworks like React and Vue.js.Explore the innovative features of Svelte, a compiler-based JavaScript framework that offers improved performance and simplicity compared to traditional frameworks like React and Vue.js.",
@@ -33,6 +35,7 @@ const BlogData = [
     },
   },
   {
+    id:2,
     blogImg: Flexbox,
     title: "Mastering CSS Flexbox: A Comprehensive Guide",
     about: "Gain a deep understanding of CSS Flexbox and its powerful layout capabilities. Follow along with practical examples and tutorials to become a Flexbox expert.Gain a deep understanding of CSS Flexbox and its powerful layout capabilities. Follow along with practical examples and tutorials to become a Flexbox expert.Gain a deep understanding of CSS Flexbox and its powerful layout capabilities. Follow along with practical examples and tutorials to become a Flexbox expert.",
@@ -43,6 +46,7 @@ const BlogData = [
     },
   },
   {
+    id:3,
     blogImg: Google,
     title: "Introducing Material You: Google's New Design System",
     about: "Explore Google's Material You design system, the next evolution of Material Design. Learn about the new design principles and components and how to incorporate them into your web projects.Explore Google's Material You design system, the next evolution of Material Design. Learn about the new design principles and components and how to incorporate them into your web projects.Explore Google's Material You design system, the next evolution of Material Design. Learn about the new design principles and components and how to incorporate them into your web projects.",
@@ -53,6 +57,7 @@ const BlogData = [
     },
   },
   {
+    id:4,
     blogImg: Accessibility,
     title: "Enhancing Web Accessibility: Best Practices and Tools",
     about: "Discover strategies for making your websites more accessible to users with disabilities. Explore WCAG guidelines, accessibility testing tools, and techniques for inclusive design.Discover strategies for making your websites more accessible to users with disabilities. Explore WCAG guidelines, accessibility testing tools, and techniques for inclusive design.Discover strategies for making your websites more accessible to users with disabilities. Explore WCAG guidelines, accessibility testing tools, and techniques for inclusive design.",
@@ -63,6 +68,7 @@ const BlogData = [
     },
   },
   {
+    id:5,
     blogImg: Webassembly,
     title: "The Future of Web Development: Exploring WebAssembly (Wasm)",
     about: "Get a glimpse into the future of web development with WebAssembly. Learn how Wasm enables high-performance, low-level code execution in the browser and its potential applications.Get a glimpse into the future of web development with WebAssembly. Learn how Wasm enables high-performance, low-level code execution in the browser and its potential applications.Get a glimpse into the future of web development with WebAssembly. Learn how Wasm enables high-performance, low-level code execution in the browser and its potential applications.",

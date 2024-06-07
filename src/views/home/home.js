@@ -1,21 +1,42 @@
 import React from 'react';
 import BlogData from '../../data';
-import BlogCard from './../../components/blogCard';
+import BlogCard from '../../components/blogCard';
 
 function Home() {
-  return (
-    <div className='blog-card-container'>
-      {BlogData.map((obj, index) => (
-        <BlogCard
-          key={index}
-          title={obj.title}
-          blogImg={obj.blogImg}
-          about={obj.about}
-          author={obj.author}
-        />
-      ))}
-    </div>
-  );
-}
+    return (
+        
+<div>
+            {
+                BlogData.map((obj, index) => {
+                    const{
+                            id,
+                            title,
+                            blogImg,
+                            about,
+                            author,
+                            name,
+                            authorImg,
+                            date
+                        }= obj;
+                       return(
+                        <BlogCard 
+                        key={index}
+                        id={id}
+                        title={title}
+                        blogImg={blogImg}
+                        about={about}
+                        author={author}
+                        name={name}
+                        authorImg={authorImg}
+                        date={date}
+                        />
+                        
+                        );
+                    })
+                }
+    
+</div>
+        
+)}
 
 export default Home;

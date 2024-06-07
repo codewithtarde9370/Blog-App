@@ -1,10 +1,11 @@
 import React from 'react';
 import './blog-card.css'
+import {Link} from 'react-router-dom';
 
 
-function BlogCard({blogImg,title,about,author}) {
+function BlogCard({id,blogImg,title,about,author}) {
   return (
-    <div className='blog-Card'>
+    <Link className='blog-Card' to={`/blog/${id}`}>
         <div className='blog-img'><img src={blogImg} alt='blogImage'></img></div>
         <div className='blog-desc'>
             <h1 className='blog-title'>{title}</h1>
@@ -16,7 +17,7 @@ function BlogCard({blogImg,title,about,author}) {
             </div>
 
         </div>
-    </div>
+    </Link>
   )
 }
 
